@@ -53,9 +53,8 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(/images/CryMeARiverPatches.jpg);
+    url(images/CryMeARiverPatches.jpg);
   background-size: cover;
-  font-family: '', sans-serif;
 }
 
 header {
