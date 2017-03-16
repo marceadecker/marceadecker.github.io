@@ -48,7 +48,13 @@ body {
 }
 
 
-
+best_friend {
+    background-image: url('images/CryMeARiverPatches.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 50% 50%;
+    background-clip: padding-box;
+}
 
 
 
