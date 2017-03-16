@@ -38,13 +38,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	/* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
-	background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(images/CryMeARiverPatches.jpg);
-  background-size: cover;
 }
 
 @media screen and (max-width: 767px) { 
