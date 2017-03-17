@@ -64,20 +64,6 @@ h4,
 h5,
 h6 { font-weight: bold; }
 
-font-face {
-	font-family: 'CooperHewitt';
-	src: 
-	url('fonts/CooperHewitt-Book.otf') 
-	format('opentype');
-}
-
-font-face {
-	font-family: 'AlternateGothic';
-	src: 
-	url('ufonts.com_alternate-gothic-no3-d.ttf') 
-	format('truetype');
-}
-
 /* Links */
 a,
 a:visited {
