@@ -1,205 +1,174 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<html lang="en">
+
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!-- Basic Page Needs
-	================================================== -->
-	<meta charset="utf-8">
-	<title>Marcea L. Decker</title>
-	<meta name="description" content=".">
-	<meta name="author" content="">
-	
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<!-- CSS Files
-	* cssreset-min.css 			- CSS reset
-	* typegrid.css				- Responsive grid system
-	* style.css					- Main CSS file
-	
-	Original LESS Stylesheet
-	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
-	================================================== -->
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
-	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Marcea L. Decker</title>
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- START: Styles -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="assets/css/combined.css">
+
+    <!-- END: Styles -->
 
 
-		
-	<!--[if lt IE 8]>
-		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
-	<![endif]-->
-
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
-
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
 </head>
 
 <body>
 
 
-	<!-- Header - Half Logo
-	================================================== -->
-	<section id="header">
 
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
 
-			Top Bar & Menu (#nav)
+    <header class="nk-header">
+        <!--
+        START: Navbar
+    -->
+        <nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-transparent nk-navbar-white-text-on-top">
+            <div class="container">
+                <div class="nk-nav-table">
+                    <a href="index.html" class="nk-nav-logo">
+                        <img src="assets/images/Me-logo-landing.png" alt="" width="300" class="nk-nav-logo-onscroll">
+                        <img src="assets/images/Me-logo.png" alt="" width="85">
+                    </a>
 
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
-					
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				
+                    <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
+                        <li>
+                            <a href="about.html">About</a>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="http://store.badpenny.land">Shop</a>
+                        </li>
+                    </ul>
 
-					<ul id="nav" class="full">
-					<li>
-						<a href="about.html">
-							<span class="count hide-on-mobile">ABOUT ME</span>
-							<img src="images/Me-logo.png" width="60" height="15">
-						</a>
-					</li>
+                    <ul class="nk-nav nk-nav-right nk-nav-icons">
+                        <li class="single-icon hidden-lg-up">
+                            <a href="#" class="nk-navbar-full-toggle">
+                                <span class="nk-icon-burger">
+                                    <span class="nk-t-1"></span>
+                                    <span class="nk-t-2"></span>
+                                    <span class="nk-t-3"></span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END: Navbar -->
+
+    </header>
+
+
+
+
+    <!--
+    START: Navbar Mobile
+-->
+    <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
+        <div class="nk-navbar-bg">
+            <div class="bg-image" style="background-image: url('assets/images/gradient.gif')"></div>
+        </div>
+        <div class="nk-nav-table">
+            <div class="nk-nav-row">
+                <div class="container">
+                    <div class="nk-nav-header">
+
+                        <div class="nk-nav-logo">
+                            <a href="index.html" class="nk-nav-logo">
+                                <img src="assets/images/Me-logo.png" alt="" width="85">
+                            </a>
+                        </div>
+
+                        <div class="nk-nav-close nk-navbar-full-toggle">
+                            <span class="nk-icon-close"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-nav-row-full nk-nav-row">
+                <div class="nano">
+                    <div class="nano-content">
+                        <div class="nk-nav-table">
+                            <div class="nk-nav-row nk-nav-row-full nk-nav-row-center nk-navbar-mobile-content">
+                                <ul class="nk-nav">
+                                    <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-nav-row">
+                <div class="container">
+                    <div class="nk-nav-social">
+                        <ul>
+                            <li><a href="https://twitter.com/marceadecker"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/badpennyland"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END: Navbar Mobile -->
+
+
+    <div class="nk-main">
+
+        <!-- START: Header Title -->
+        <div class="nk-header-title nk-header-title-full">
+            <div class="bg-image">
+                <div style="background-image: url('assets/images/gradient.gif');"></div>
+                <div class="bg-image-overlay" style="background-color: rgba(0, 0, 0, 0);"></div>
+            </div>
+            <div class="nk-header-table">
+                <div class="nk-header-table-cell">
+                    <div class="container">
                     
-                    <li>
-						<a href="works.html">
-							<span class="count hide-on-mobile">LOOK</span>
-							Works
-						</a>
-						<ul>
-							<li><a href="illustration.html">Illustration/Design</a></li>
-                            <li><a href="screenprinting.html">Screenprinting</a></li>
-                            <li><a href="animation.html">Animation</a></li>
-			</ul>
-					</li>
+                    <img src="assets/images/Me-01.png" width="400">
+    <br><h1 class="nk-title display-3 text-white"> Graphic designer, illustrator, <br>animator, screenprinter.</h1><br><p>Working at the intersection of art and purpose to craft experiences both online and in real life. <br>100% invested in telling the right visual story.</p>
+    <br><h2 class="nk-subtitle text-white">contact: hello@marcea.de
+<a href="https://twitter.com/marceadecker"><i class="fa fa-twitter"></i></a> <a href="https://www.instagram.com/badpennyland"><i class="fa fa-instagram"></i></a></h2>
+                   
 
-					<li>
-						<a href="http://store.badpenny.land">
-							<span class="count hide-on-mobile">SHOP</span>Bad Penny Land
-						</a>
-					</li>
-                    
-             <li>
-						<a href="contact.html">
-							<span class="count hide-on-mobile">WHAT'S UP</span>
-							Contact
-						</a>
-						<ul>
-                            <li><a href="http://instagram.com/badpennyland">Instagram</a></li>
-                            <li><a href="http://twitter.com/marceadecker">Twitter</a></li>
-                            <li><a href="mailto:hello@marcea.de">E-mail</a></li>
-			</ul>
-					</li>
-					
-				</ul><!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-		<div class="logo-wrap">
-			<div class="container">
-				<div class="desktop-6 tablet-12 columns">
-					<center><h1><a href="index.html" title="Home"><img src="images/Me-01.png" alt="" /></a></h1></center>
-				</div><!-- // .desktop-6 -->
-
-				<div class="desktop-6 columns">
-                <b>Hey, I'm Marcea!</b>
-            
-            <br><br>Born in the middle of winter in a very hot place (Arizona), I'm a graphic designer/lecturer currently based in the NYC-area. I also screenprint/draw for pleasure under the name Bad Penny Land with my partner George.
-            
-            <br><br>I'm a proud dog-mom to a grumpy schnauzer named Ollie, and I love coffee and punk rock music. Feel free to get in touch/say hey at <a href="mailto:hello@marcea.de?Subject=Hi%20there!" target="_top">hello@marcea.de</a>!</p>
-            
-            </p>
-					</p><!-- // .site-desc -->
-				</div><!-- // .desktop-6 -->
-
-				<div class="clear"></div>
-			</div><!-- // .container -->
-		</div><!-- // .logo-wrap -->
-	</section><!-- // #header -->
-
-	<!-- About
-	================================================== -->
-	<section id="about" class="page">
-		
-		<div class="container">
-
-			<div class="desktop-6 tablet-12 columns">
-            <div class="border-top"></div></div>
-			
-			<div class="clear"></div>
-
-	<div class="desktop-6 tablet-12 columns">
-                         
-						</div><!-- // .desktop-6 -->
-
-						<div class="clear"></div>
-					</div><!-- // .item -->
+                        <div class="nk-gap"></div>
+                        <div class="nk-header-text text-white">
+                            <div class="nk-gap-4"></div>
+                        </div>
 
 
-						<div class="clear"></div>
-					</div><!-- // .item -->
+                    </div>
+                </div>
+            </div>
 
-			</div><!-- // .container -->
 
-		</div><!-- // .services -->
+        </div>
 
-	</section><!-- // section#about -->
+
+        <!-- END: Header Title -->
 
 
 
 
-	<!-- Footer
-	================================================== -->
-	<section id="footer">
-		<div class="container">
-			
-		</div><!-- // .container -->
-	</section><!-- // section#footer -->
+      <script src="assets/js/combined.js"></script>
+    <script src="assets/js/typed.js"></script>
+    
+    <!-- END: Scripts -->
 
 
-	<!-- JS
-	================================================== -->
-	<!-- 
-		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
-		Use jQuery 1.8 until Flexslider 2.2 stable version is released
-	-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-	<script src="js/jQuery.BlackAndWhite.min.js"></script>
-	<script src="js/modernizr.js"></script>
-	<script src="js/less-1.4.0.min.js"></script>
-	<script src="js/jquery.typeMenu.js"></script>
-	<script src="js/jquery.typeSticky.js"></script>
-
-
-	
-
-	
-
-
-	
-
-
-	<script src="js/jquery.custom.js"></script>
-
-
-<!-- End Document
-================================================== -->
 </body>
+
 </html>
